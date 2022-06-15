@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" href="../CSS/from.css">
+  <div class="content"></div>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.0/jquery.validate.min.js"> </script>
+  
+  <script src="../JS/from.js"></script>
+
+</head>
+
+<body>
+  <h1> Customers Details:</h1>
+  <form name="form" id="form">
+    <hr><br>
+    <!-- <div>
+      <h2>Full name<span style="color: red ;">*</span></h2>
+      <input type="text1"  name="fname" id="name1" value="">
+      <label for="fname" style="float: left; padding-right:445px ;">First name </label>
+      <input type="text2" id="name2" name="lname" value="" required>
+      <lable for="lname">Last name</lable><br>
+       -->
+
+    <div class="row">
+      <div class="col-sm-5">
+        <input type="text1" name="name1" id="name1" value="">
+        <br>
+        <label for="name1">First name </label>
+      </div>
+      <div class="col-sm-5">
+        <input type="text2" id="name2" name="name2" value="">
+        <br>
+        <lable for="name2">Last name</lable>
+      </div>
+    </div>
+    <div>
+      <h2>Address <span style="color: red ;">*</span></h2>
+      <input type="text3" id="Address1" name="Address1">
+      <br>
+
+
+      <label for="Address1">Street Address</label><br><br>
+    </div>
+    <div>
+      <input type="text4" id="Address2" name="Address2">
+
+      <label for="Address2">Street Address line2</label><br><br>
+    </div>
+
+    <div class="row">
+      <div class="col-sm-5">
+        <input type="text5" id="city" name="city" value="">
+        <br>
+        <label for="city">city</label>
+      </div>
+      <div class="col-sm-5">
+        <input type="text6" id="state" name="state">
+        <br>
+        <lable for="state">State/province</lable>
+      </div>
+    </div>
+
+
+    <!-- </div> -->
+    <div>
+      <input type="number1" id="zipcode" name="zipcode">
+
+      <label for="Postal">Postal/zip code</Address></label><br><br>
+    </div>
+    <div>
+      <h2>Phone Number <span style="color: red ;">*</span></h2>
+      <input type="number2" id="phone" name="phone" placeholder="(000)000-0000">
+
+      <label for="phonenumber"></label>
+    </div>
+    <div>
+      <h2>E-mail</h2>
+      <input type="email" id="email" name="email" placeholder="ex: email@yahoo.com">
+
+      <label for="email"></label><br>
+      <label for="email">email@yahoo.com</email></label><br>
+    </div>
+    <div>
+      <h2>How do you hear about us?<span style="color: red ;">*</span> </h2>
+      <select>
+        <option value="magazine">magazine</option>
+        <option value="friends">friends</option>
+        <option value="newspaper">newspaper</option>
+        <option value="television">television</option>
+      </select>
+    </div>
+    <div>
+      <h2>Feedback about us:</h2>
+      <textarea type="text7" name="feedback" id="feedback" cols="125" rows="10"></textarea>
+
+    </div><br>
+    <!--input type="text"id="Feedback"name="Feedback" size="100"style="padding: 5%"-->
+
+    <div>
+      <h2>Suggestions if for further improvement:</h2>
+      <textarea type="text8" name="suggestion" id="suggestion" cols="125" rows="10"></textarea>
+
+    </div>
+    <!--input type="text"id="Suggestions"name="Suggestions" size="100"style="padding: 5%"-->
+    <div>
+
+      <label for="vehicle1"><b> Will you be willing to recommend us?</b></label>
+      <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+      <br>
+    </div>
+    <div>
+      <div id="radio">
+
+        <label>Gender:</label>
+        <label><input type='radio' name='gender' value='Male' />Male</label>
+        <label><input type='radio' name='gender' value='Female' />Female</label>
+        <label><input type='radio' name='gender' value='Others' />Others</label>
+      </div>
+
+
+    </div>
+    <div>
+      <h2>Please give reference of any people whom :</h2>
+      <table style="width: 90%" ;>
+        <tr>
+          <th style="border-top-color: white ;border-left-color: white;"></th>
+          <th style="background-color: rgb(215, 200, 200) ;">Full Name</th>
+          <th style="background-color: rgb(215, 200, 200) ;">Address</th>
+          <th style="background-color: rgb(215, 200, 200) ;">Contact Number</th>
+        </tr>
+        <tr>
+          <th style="background-color: rgb(215, 200, 200) ;"> 1</th>
+          <th> </th>
+          <th> </th>
+          <th> </th>
+        </tr>
+        <tr>
+          <th style="background-color: rgb(215, 200, 200) ;"> 2</th>
+          <th> </th>
+          <th> </th>
+          <th> </th>
+        </tr>
+      </table><br><br>
+    </div>
+    <input type="submit" value="Submit" name='submit' color="green">
+    <!-- <button type="submit" class="submit"  name="submit" id = "submit">submit</button> -->
+  </form>
+
+</body>
+
+
+
+
+</html>
